@@ -3,13 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Project</title>
+  <title>Ad Loader</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="ad-loader" id="adLoader">
+    <div class="loader-animation"></div>
+    <p>Loading Ad...</p>
+  </div>
 
-  <!-- Your content goes here -->
+  <div id="adContent" class="hidden">
+    <!-- Simulated ad content -->
+    <div class="ad-box">
+      <h2>Your Ad Here</h2>
+      <p>This is where your ad will be displayed.</p>
+    </div>
+  </div>
 
- 
+  <script src="script.js"></script>
 </body>
 </html>
+
